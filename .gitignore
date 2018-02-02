@@ -1,4 +1,6 @@
+*.pyc
 
+outputs
 
 # PyCharm
 .idea
