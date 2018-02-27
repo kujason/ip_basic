@@ -255,7 +255,7 @@ def fill_in_multiscale(depth_map, max_depth=100.0,
         s7_blurred_depths[valid_pixels] = blurred[valid_pixels]
     elif blur_type == 'bilateral':
         # Bilateral blur
-        blurred = cv2.bilateralFilter(s7_blurred_depths, 5, 1.5, 2.0)
+        blurred = cv2.bilateralFilter(s7_blurred_depths, 5, 0.5, 2.0)
         s7_blurred_depths[valid_pixels] = blurred[valid_pixels]
 
     # Invert (and offset)
