@@ -8,7 +8,7 @@ Click [here](https://www.youtube.com/watch?v=t_CGGUE2kEM) for a short demo video
 
 [![Demo Video](images/short_vid.jpg)](https://www.youtube.com/watch?v=t_CGGUE2kEM)
 ---
-Click [here](https://youtu.be/nTMS8WaAd6Q) to see point clouds from additional KITTI raw sequences. Note that the structure of smaller or thin objects (e.g. poles, bicycle wheels, pedestrians) are well preserved after depth completion.
+Click [here](https://youtu.be/tYwIcLvfC70) to see point clouds from additional KITTI raw sequences. Note that the structure of smaller or thin objects (e.g. poles, bicycle wheels, pedestrians) are well preserved after depth completion.
 
 [![Extra Scenes](images/extra_vid.png)](https://youtu.be/tYwIcLvfC70)
 ---
