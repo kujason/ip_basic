@@ -3,6 +3,22 @@ Depth completion is the task of converting a sparse depth map D<sub>sparse</sub>
 
 An accurate dense depth map can also benefit 3D object detection or SLAM algorithms that use point cloud input. This method uses an unguided approach (images are ignored, only LIDAR projections are used). Basic depth completion is done with OpenCV and NumPy operations in Python. For more information, please see our paper: [In Defense of Classical Image Processing: Fast Depth Completion on the CPU](https://arxiv.org/abs/1802.00036).
 
+Please visit [https://github.com/kujason/scene_vis](https://github.com/kujason/scene_vis) for 3D point cloud visualization demos on raw KITTI data.
+
+If you use this code, we would appreciate if you cite our paper:
+[In Defense of Classical Image Processing: Fast Depth Completion on the CPU](https://arxiv.org/abs/1802.00036)
+
+```
+@inproceedings{ku2018defense,
+  title={In Defense of Classical Image Processing: Fast Depth Completion on the CPU},
+  author={Ku, Jason and Harakeh, Ali and Waslander, Steven L},
+  booktitle={2018 15th Conference on Computer and Robot Vision (CRV)},
+  pages={16--22},
+  year={2018},
+  organization={IEEE}
+}
+```
+
 ### Videos
 Click [here](https://www.youtube.com/watch?v=t_CGGUE2kEM) for a short demo video with comparison of different versions.
 
@@ -89,20 +105,6 @@ The table below shows a comparison of timing on an Intel Core i7-7700K for diffe
 |   Multi-Scale, Bilateral, Noise Removal, No Extrapolation | 0.0328 s |  30 |
 
 Table: Timing comparison for different versions.
-
-### Citation
-If you use this code, we would appreciate if you cite our paper:
-
-[In Defense of Classical Image Processing: Fast Depth Completion on the CPU](https://arxiv.org/abs/1802.00036)
-
-```
-@article{ku2018defense,
-  title={In Defense of Classical Image Processing: Fast Depth Completion on the CPU},
-  author={Ku, Jason and Harakeh, Ali and Waslander, Steven L},
-  journal={arXiv preprint arXiv:1802.00036},
-  year={2018}
-}
-```
 
 ### Examples
 Qualitative results from the `Multi-Scale, Bilateral, Noise Removal, No Extrapolation` version on samples from the KITTI object detection benchmark.

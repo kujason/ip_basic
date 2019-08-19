@@ -20,12 +20,12 @@ def main():
     ##############################
     # Validation set
     input_depth_dir = os.path.expanduser(
-        '~/Kitti/depth/val_selection_cropped/velodyne_raw')
+        '~/Kitti/depth/depth_selection/val_selection_cropped/velodyne_raw')
     data_split = 'val'
 
     # Test set
     # input_depth_dir = os.path.expanduser(
-    #     '~/Kitti/depth/test_depth_completion_anonymous/velodyne_raw')
+    #     '~/Kitti/depth/depth_selection/test_depth_completion_anonymous/velodyne_raw')
     # data_split = 'test'
 
     # Fast fill with Gaussian blur @90Hz (paper result)
@@ -40,7 +40,7 @@ def main():
 
     # Multi-scale dilations with extra noise removal, no extrapolation @ 30Hz
     # fill_type = 'multiscale'
-    # extrapolate = True
+    # extrapolate = False
     # blur_type = 'bilateral'
 
     # Save output to disk or show process
